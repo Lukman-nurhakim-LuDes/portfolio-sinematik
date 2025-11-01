@@ -1,0 +1,14 @@
+# Konfigurasi build untuk Netlify
+# Ini memberi tahu Netlify cara build proyek Next.js Anda
+
+[build]
+  # Perintah untuk build proyek Anda
+  command = "npm run build"
+  
+  # Direktori output setelah build (Next.js secara default)
+  publish = ".next"
+
+# Plugin Next.js untuk Netlify
+# Ini penting agar App Router, Image Optimization, dll. berfungsi
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
