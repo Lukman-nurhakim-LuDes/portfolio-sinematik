@@ -1,5 +1,21 @@
-# Object file
-*.o
+Ketergantungan (Dependencies)
 
-# Ada Library Information
-*.ali
+/node_modules
+
+File Build (Build artifacts)
+
+/.next/
+/out/
+
+File Environment Lokal (SANGAT PENTING JANGAN DIUPLOAD)
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+Log
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
